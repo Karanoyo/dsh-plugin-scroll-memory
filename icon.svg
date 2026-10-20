@@ -1,0 +1,33 @@
+<svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 列表容器卡片背景 -->
+  <rect x="5" y="4" width="26" height="28" rx="5" fill="url(#scroll-bg-grad)" stroke="url(#scroll-stroke-grad)" stroke-width="1.5" />
+  <!-- 列表卡片横条（已浏览项目） -->
+  <rect x="9" y="8" width="12" height="3" rx="1.5" fill="#FFFFFF" fill-opacity="0.85" />
+  <rect x="9" y="13" width="14" height="3" rx="1.5" fill="#FFFFFF" fill-opacity="0.85" />
+  <!-- 当前聚焦/记忆停留行（高亮条） -->
+  <rect x="9" y="18" width="11" height="3" rx="1.5" fill="url(#scroll-pin-grad)" />
+  <rect x="9" y="23" width="13" height="3" rx="1.5" fill="#FFFFFF" fill-opacity="0.45" />
+  <!-- 滚动条槽道与滑块（指示停留在中间位置） -->
+  <rect x="25" y="8" width="3" height="20" rx="1.5" fill="#FFFFFF" fill-opacity="0.2" />
+  <rect x="25" y="16" width="3" height="7" rx="1.5" fill="url(#scroll-thumb-grad)" />
+  <!-- 记忆返回弧线箭头：标示「精准返回原位」 -->
+  <path d="M 6 27 C 3 24 3 20 6 18 L 8 20" stroke="url(#scroll-pin-grad)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  <defs>
+    <linearGradient id="scroll-bg-grad" x1="18" y1="4" x2="18" y2="32" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3A7BD5" />
+      <stop offset="1" stop-color="#2352A8" />
+    </linearGradient>
+    <linearGradient id="scroll-stroke-grad" x1="5" y1="4" x2="31" y2="32" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67C7FE" stop-opacity="0.8" />
+      <stop offset="1" stop-color="#3A7BD5" stop-opacity="0.4" />
+    </linearGradient>
+    <linearGradient id="scroll-thumb-grad" x1="26.5" y1="16" x2="26.5" y2="23" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00F2FE" />
+      <stop offset="1" stop-color="#4FACFE" />
+    </linearGradient>
+    <linearGradient id="scroll-pin-grad" x1="9" y1="18" x2="20" y2="21" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00F2FE" />
+      <stop offset="1" stop-color="#4FACFE" />
+    </linearGradient>
+  </defs>
+</svg>

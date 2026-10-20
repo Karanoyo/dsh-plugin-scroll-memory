@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Scroll Memory",
+    "description": "Remembers scroll position in Settings → Plugins: returning from plugin detail or config restores your exact browsing position."
+  }
+}

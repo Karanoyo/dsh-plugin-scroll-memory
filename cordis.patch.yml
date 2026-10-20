@@ -1,0 +1,19 @@
+# dsh-plugin-scroll-memory bundle for DeepSeek Harness (dsh).
+#
+# Client-only, exactly like dsh-voice's row: the browser half (lib/client.js)
+# does all the work in the Settings panel's DOM; the node half (lib/index.js)
+# only declares the plugin identity so the bundle is a legal profile layer.
+#
+# The row id lives in the loader's GLOBAL id space: one entry per id, later-wins,
+# and no diagnostic. Never reuse an id another package already claims (the
+# official @deepseek-ai/dsh-web-app bundle claims ui-plugin-manager for its own
+# sidebar Plugins page) — claiming it silently drops that row and its page
+# disappears. This id is namespaced to this package, so it collides with nothing.
+#
+# The row `name` must stay exactly the package name: the official
+# @deepseek-ai/dsh-client-modules mounts a package's browser half on the loader
+# row whose specifier resolves to that package's own manifest, so a subpath name
+# would mount the host half only.
+- insert:
+    - id: dsh-plugin-scroll-memory
+      name: dsh-plugin-scroll-memory
