@@ -11,7 +11,7 @@ DSH 插件生态里没有第二个做这件事的（扫过 7 个目录源、2100
 ## 🚀 安装
 
 ```sh
-dsh plugin --profile desktop add link:E:/dsh-workspace/dsh-plugin-scroll-memory
+github:Karanoyo/dsh-plugin-scroll-memory#main
 ```
 
 `dsh plugin add` 是 pnpm 的前向转发器，`link:` 是它认可的来源形式。装完**重启 dsh web**，再 **Ctrl+F5 硬刷新**（客户端 bundle 走 `window.__ModuleLoader__`，不硬刷新会拿到旧缓存）。

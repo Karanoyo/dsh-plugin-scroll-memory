@@ -1,6 +1,6 @@
 {
   "name": "dsh-plugin-scroll-memory",
-  "version": "0.2.1",
+  "version": "2.1.5",
   "description": "让 DeepSeek Harness 自带的「设置 → 插件」列表记住滚动位置：在「已安装」和「发现」市场之间自由切换，或从插件详情/配置页返回时，各自回到原来浏览的位置，两边独立运行互不干扰。",
   "license": "MIT",
   "type": "module",
